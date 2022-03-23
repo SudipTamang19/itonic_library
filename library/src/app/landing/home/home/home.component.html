@@ -1,0 +1,18 @@
+<app-sliders></app-sliders>
+
+<div class="row justify-content-around gy-4 mt-3">
+    <div *ngFor="let book of bookList" class="col-12 col-sm-5 col-md-3">
+        <div class="card">
+            <div style="height: 300px; text-align: center;" class="card-top bg-secondary p-5">
+                <h5 style="color: white;">{{book.title}}</h5>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">{{book.title}}</h5>
+              <p>Category:{{book.category}}</p>
+              <p class="card-text">{{book.description |slice:0:40}}...</p>
+              <a href="#" class="btn btn-dark">Request borrow</a>
+            </div>
+          </div>
+    </div>
+</div>
+

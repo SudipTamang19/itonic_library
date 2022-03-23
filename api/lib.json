@@ -1,0 +1,96 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "username": "sudip",
+      "email": "sudiptamang000@gmail.com",
+      "password": "nepal123",
+      "isAdmin": false
+    },
+    {
+      "username": "ram shah",
+      "email": "ram@gmail.com",
+      "password":"nepal123",
+      "isAdmin": false,
+      "id": 3
+    },
+    {
+      "username": "sanga",
+      "email": "sangabtamang1965@gmail.com",
+      "password": "nepal123",
+      "id": 4,
+      "isAdmin": false
+    },
+    {
+      "username": "shyam",
+      "email": "shyam@gmail.com",
+      "password": "12345",
+      "isAdmin": "false",
+      "id": 5
+    }
+  ],
+  "book": [
+    {
+      "id": 1,
+      "title": "Alaistair Cook",
+      "category": "sports",
+      "description": "He is the greatest batsman to ever play for England's Cricket Team, one of the most gifted players in the world, but in 2018 he played his final game. At 33, Alastair Cook announced his retirement from sport."
+    },
+    {
+      "id": 2,
+      "title": "Cristiano and Leo",
+      "category": "sports",
+      "description": "Ask any football fan who's better, Ronaldo or Messi and they'll have an opinion. Football is a team game. It's virtually unheard of to have the sort of focused, one on one rivalries that dominate individual sports. But for the best part of the last decade football has seen a personal rivalry unlike any seen before. Cristiano and Leo. This is their definitive story, from children kicking a ball halfway around the world from each other to their era-defining rivalry. One the preening adonis, a precision physical machine who blows teams away with his pace and power. "
+    },
+    {
+      "id": 3,
+      "title": "Milkman",
+      "category": "literature",
+      "description": "WINNER OF THE MAN BOOKER PRIZE 2018 SHORTLISTED FOR THE RATHBONES FOLIO PRIZE 2019 SHORTLISTED FOR THE WOMEN'S PRIZE FOR FICTION 2019 SHORTLISTED FOR THE ORWELL PRIZE FOR POLITICAL FICTION 2019 'Blazing.' Daily Telegraph 'Outstanding.' New Statesman 'A triumph.' Guardian 'Utterly compelling.' Irish Times 'The best Booker winner in years.' Metro In an unnamed city, where to be interesting is dangerous, an eighteen-year-old woman has attracted the unwanted and unavoidable attention of a powerful and frightening older man, 'Milkman'. In this community, where suggestions quickly become fact, where gossip and hearsay can lead to terrible consequences, what can she do to stop a rumour once it has started?"
+    },
+    {
+      "id": 4,
+      "title": "Eleven Minutes",
+      "category": "literature",
+      "description": "The new novel from the internationally best selling Paulo Coelho After being tricked into moving to Geneva with the promise of being a dancer, Maria finds herelf working the streets as a prostitute for a year. During this time she develops a fascination for sex. This fascination becomes a passion for her work, a desire to make people happy and enjoy sex. But behind the dedication to her work is a deep aversion to the idea of falling in love. That is until she meets a painter who she is able to love, and make her dreams come true. Paulo Coehlo explores the themes of sex and love in his new novel."
+    },
+    {
+      "id": 5,
+      "title": "Home Body",
+      "category": "poetry",
+      "description": "Rupi Kaur constantly embraces growth, and in home body, she walks readers through a reflective and intimate journey visiting the past, the present, and the potential of the self. home body is a collection of raw, honest conversations with oneself – reminding readers to fill up on love, acceptance, community, family, and embrace change. Illustrated by the author, themes of nature and nurture, light and dark, rest here. i dive into the well of my body and end up in another world everything i need already exists in me there’s no need to look anywhere else – home"
+    },
+    {
+      "id": 6,
+      "title": "Some Unquenchable Desire",
+      "category": "poetry",
+      "description": "An award-winning translator finds surprisingly modern themes in a selection of erotic and religious stanzas from one of classical India's most celebrated poets. Although few facts are known about his life, the Indian poet Bhartrihari leaps from the page as a remarkably recognizable individual. "
+    },
+    {
+      "id": 7,
+      "title": "Muggie Maggie",
+      "category": "kids",
+      "description": "In this humorous and relatable novel from Newbery Medal-winning author Beverly Cleary, a girl must overcome her rebellious attitude toward learning cursive. At first, Maggie is just feeling plain stubborn when she declares she won't learn cursive. What's wrong with print, anyway? And she can easily type on a computer, so why would she need to know how to read those squiggly lines? But soon all her classmates are buzzing about Maggie's refusal to learn, especially after her teacher, Mrs. Leeper, says Maggie's cursive is so sloppy that her name looks like Muggie. With Muggie Maggie ringing in her ears, Maggie absolutely, positively won't back down...until she's appointed class mail messenger. "
+    },
+    {
+      "id": 8,
+      "title": "Beat bugs",
+      "category": "kids",
+      "description": "Based on Beat Bugs, the Netflix TV show inspired by songs made famous by the Beatles. Lately, Crick is feeling down. It’s up to the Beat Bugs to cheer him up in their own special way. But will it be just what Crick needs? Based on the new Netflix original show Beat Bugs and inspired by the hit song “Penny Lane,” this Level 1 I Can Read shows the value of friendship for young readers. Level One I Can Read books are perfect for children learning to sound out words and sentences."
+    }
+  ],
+  "borrow":[
+    {
+      "id":1,
+      "userid":2,
+      "bookid":1
+    }
+  ]
+}

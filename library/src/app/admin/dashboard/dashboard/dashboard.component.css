@@ -1,0 +1,12 @@
+.dash-content div{
+    height: 200px;
+    border-radius: 10px;
+}
+
+.dash-content div h3{
+    color: white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}

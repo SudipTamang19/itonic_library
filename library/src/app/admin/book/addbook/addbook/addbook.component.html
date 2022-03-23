@@ -1,0 +1,21 @@
+<div class="admin-form-container">
+
+    <form [formGroup]="bookForm" (ngSubmit)="bookFormSubmit()">
+        <div class="mb-3">
+            <label class="form-label" for="title">Title</label>
+            <input type="text" id="title" class="form-control" formControlName="title">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label" for="category">Category</label>
+            <input type="text" id="category" class="form-control" formControlName="category">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" formControlName="description"></textarea>
+        </div>
+
+        <button class="btn btn-dark">Add book</button>
+    </form>
+
+</div>

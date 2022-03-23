@@ -1,0 +1,33 @@
+
+<div class="admin-form-container">
+        <h2 style="text-align: center;">Edit user</h2>
+        <form [formGroup]="registerForm" (ngSubmit)="registerFormSubmit()">
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" id="username" class="form-control" formControlName="username">
+                <span *ngIf="rfControls.username.errors && (rfControls.username.touched || rfControls.username.dirty)">
+                    <span *ngIf="rfControls.username.errors?.required" class="text-danger">Username field is required</span>
+                </span>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-control" formControlName="email">
+                <span *ngIf="rfControls.email.errors && (rfControls.email.touched || rfControls.email.dirty)">
+                    <span *ngIf="rfControls.email.errors?.required" class="text-danger">Email field is required</span>
+                    <span *ngIf="rfControls.email.errors?.email" class="text-danger">Enter a valid email</span>
+                </span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Admin status</label>
+                <select class="form-select" aria-label="Default select example" formControlName="isAdmin">
+                    <option value="true">True</option>
+                    <option value="false">False</option>
+                  </select>
+            </div>
+
+            
+            <button [disabled]="registerForm.invalid" style="width: 100%;" type="submit" class="btn btn-success">Update user</button>
+            
+        </form>
+</div>
